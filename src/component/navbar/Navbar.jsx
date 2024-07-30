@@ -12,10 +12,10 @@ export default function Navbar() {
           {/* items menu */}
           <div className="flex justify-center items-center gap-3">
             <ul className=" flex justify-center items-center gap-5 text-xl text-slate-200">
-              <li>Element</li>
-              <li>Element</li>
-              <li>Element</li>
-              <li>Element</li>
+              <li>Accueil</li>
+              <li>Cours</li>
+              <li>A propos</li>
+              <li>Faq</li>
             </ul>
             <IoMdSunny className="text-2xl text-slate-200" />
             <FaRegUserCircle className="text-2xl text-slate-200" />
