@@ -5,7 +5,7 @@ import { IoMdSunny } from "react-icons/io";
 export default function Navbar() {
   return (
     <>
-      <div className="block border-b-2 border-slate-500 sm:px-14 px-14 sm:py-6 py-5">
+      <div className="block border-b-[1px] border-slate-500 sm:px-14 px-14 sm:py-6 py-5">
         <div className="flex justify-between items-center">
           <h1 className="text-white text-xl sm:text-lg font-bold">Elearning</h1>
 
