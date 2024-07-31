@@ -11,7 +11,7 @@ export default function Banner() {
             className="w-[500px] h-[500px]"
           />
           {/* texte */}
-          <div className="flex flex-col gap-5 sm:py-6 py-6">
+          <div className="flex flex-col gap-5 sm:py-12 py-12">
             <h1 className="text-slate-200 text-start font-extrabold text-4xl max-w-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
               corporis temporibus illum minus?{" "}
@@ -51,7 +51,7 @@ export default function Banner() {
                   className=" rounded-full w-8 h-8 "
                 />
               </div>
-              <p className="font-normal text-sm text-pretty">+500K abonnés, nous ont faits confiance </p>
+              <p className="font-normal text-sm text-slate-300">+500K abonnés, nous ont faits confiance </p>
             </div>
           </div>
         </div>
