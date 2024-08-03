@@ -17,7 +17,7 @@ export default function Navbar() {
     <>
       <div className="block backdrop-blur-md bg-slate-900/30 border-b-[0.1px] border-slate-700 sm:px-14 px-9 sm:py-2 py-5 shadow-md fixed top-0 right-0 left-0">
         <div className="flex justify-between items-center">
-          <div className="flex space-x-1">
+          <div className="flex space-x-1 sm:space-x-2">
             <img
               src="../../../public/scool.jpeg"
               alt="logo"
@@ -39,13 +39,13 @@ export default function Navbar() {
             <IoMdSunny className="text-xl text-slate-400" />
             <FaRegUserCircle className="text-2xl text-slate-400" />
             <button
-              className="bg-slate-800 px-2 py-1 rounded-md hover:bg-slate-200 hover:text-slate-800"
+              className="bg-slate-800 px-2 py-1 sm:hidden rounded-md hover:bg-slate-200 hover:text-slate-800 duration-300 ease-out"
               onClick={openMenu}
             >
               {menu ? (
-                <RxCross1 className="text-xl text-slate-400" />
+                <RxCross1 className="text-2xl text-slate-400" />
               ) : (
-                <HiMenuAlt4 className="text-xl text-slate-400" />
+                <HiMenuAlt4 className="text-2xl text-slate-400" />
               )}
             </button>
           </div>
