@@ -37,11 +37,22 @@ export default function Herosection() {
             </div>
           </div>
           <div className="flex flex-col gap-10">
-            <div className=" border-[0.1px] border-slate-700 rounded-md sm:px-8 px-8 sm:py-5 py-5 text-slate-200 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-              molestiae iure commodi architecto aut suscipit voluptatum ab
-              accusamus a autem, magnam, deserunt debitis ipsam similique
-              dolorum totam. Nesciunt, inventore itaque.
+            <div className="grid sm:grid-cols-2 grid-cols-2 gap-5 sm:gap-5">
+              <div className="border-[0.1px] border-slate-700 rounded-md sm:px-2 px-2 sm:py-2 py-2">
+                <img
+                  src="../../../public/12.png"
+                  alt="photo"
+                  className="sm:w-60 w-full sm:h-60 h-full rounded-md items-center justify-center"
+                />
+              </div>
+
+              <div className="border-[0.1px] border-slate-700 rounded-md sm:px-2 px-2 sm:py-2 py-2">
+                <img
+                  src="../../../public/mon_profile.png"
+                  alt="photo"
+                  className="sm:w-60 w-full sm:h-60 h-full rounded-md"
+                />
+              </div>
             </div>
             <div className=" border-[0.1px] border-slate-700 rounded-md sm:px-8 px-8 sm:py-5 py-5 text-slate-200 text-justify">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
