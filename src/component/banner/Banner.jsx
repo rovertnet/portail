@@ -18,22 +18,22 @@ export default function Banner() {
             </h1>
             <p className="text-slate-500 font-medium text-balance max-w-lg">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              placeat sint tempora, voluptatum omnis laudantium eius nostrum!
-              Ducimus dolores rerum nam.
+              placeat sint tempora.
             </p>
-            <div className="flex">
+            <div className="flex my-5 sm:my-5">
               <input
                 type="mail"
-                className="sm:px-2 px-2 sm:py-2 sm:w-full w-full py-2 outline outline-0 focus:outline-0 bg-slate-700"
+                placeholder="exemple@gmail.com"
+                className="sm:px-3 px-3 sm:py-2 rounded-l-md text-slate-400 sm:w-full w-full py-2 outline outline-0 focus:outline-0 bg-slate-700"
               />
               <button
-                className="sm:px-2 px-2 sm:py-2 py-2 bg-blue-400"
+                className="sm:px-2 px-2 sm:py-2 py-2 bg-blue-400 rounded-r-md"
                 type="submit"
               >
                 <FaSearch className="text-slate-200 text-xl font-semibold" />
               </button>
             </div>
-            <div className="flex space-x-3">
+            <div className="flex space-x-1 my-3 sm:my-3">
               <div className="flex">
                 <img
                   src="../../../public/moi.png"
@@ -41,17 +41,19 @@ export default function Banner() {
                   className=" rounded-full w-8 h-8 bg-slate-300"
                 />
                 <img
-                  src="../../../public/mon_profile.png"
+                  src="../../../public/12.png"
                   alt="1"
                   className=" rounded-full w-8 h-8  -mx-4"
                 />
                 <img
-                  src="../../../public/robert.png"
+                  src="../../../public/13.png"
                   alt="1"
                   className=" rounded-full w-8 h-8 "
                 />
               </div>
-              <p className="font-normal text-sm text-slate-300">+500K abonnés, nous ont faits confiance </p>
+              <p className="font-normal text-sm text-slate-300 pt-2">
+                +500K abonnés, nous ont faits confiance{" "}
+              </p>
             </div>
           </div>
         </div>
