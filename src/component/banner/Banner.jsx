@@ -3,8 +3,8 @@ import { FaSearch } from "react-icons/fa";
 export default function Banner() {
   return (
     <>
-      <div className="block sm:px-14 px-14 sm:py-20 py-20">
-        <div className="flex justify-around items-center gap-28 flex-col sm:flex-row">
+      <div className="block sm:px-14 px-9 sm:pt-20 pt-20 sm:pb-10 pb-10">
+        <div className="flex justify-around items-center sm:gap-28 gap-6 flex-col sm:flex-row">
           <img
             src="../../../public/b2.png"
             alt="bannerimg"
@@ -12,7 +12,7 @@ export default function Banner() {
           />
           {/* texte */}
           <div className="flex flex-col gap-5 sm:py-12 py-12">
-            <h1 className="text-slate-200 text-start font-extrabold text-4xl max-w-lg">
+            <h1 className="text-slate-200 text-start font-extrabold text-4xl sm:max-w-lg text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
               corporis temporibus illum minus?{" "}
             </h1>
