@@ -21,15 +21,15 @@ export default function Herosection() {
               Incidunt autem tempora perspiciatis iusto. Expedita corporis esse,
               quidem magni aut. Quo omnis, impedit nesciunt officiis ullam iure!
             </h2>
-            <div className="flex justify-start items-center gap-5 sm:pt-10 pt-10">
+            <div className="flex justify-center items-center gap-5 sm:justify-start sm:pt-10 pt-10">
               <button
-                className="px-3 py-2 bg-blue-400 text-white text-xl rounded-md font-semibold hover:bg-blue-500"
+                className="px-5 py-2 bg-blue-400 text-white text-xl rounded-md font-semibold hover:bg-blue-500"
                 type="submit"
               >
                 Promo
               </button>
               <button
-                className="px-3 py-2 border-[0.1px] border-blue-400 text-blue-400 text-xl rounded-md font-semibold"
+                className="px-5 py-2 border-[0.1px] border-blue-400 text-blue-400 text-xl rounded-md font-semibold"
                 type="submit"
               >
                 Publicité
@@ -59,8 +59,12 @@ export default function Herosection() {
               asperiores quis, modi impedit magni qui totam consequuntur laborum
               tempore explicabo a saepe sit et ipsa repellendus, reiciendis
               aliquam magnam. Tempore.
-
-              <button type="submit" className=""></button>
+              <button
+                type="submit"
+                className="mt-7 px-3 py-2 bg-blue-400 text-white text-xl rounded-md font-semibold hover:bg-blue-500 sm:w-full w-full"
+              >
+                Contactez-nous
+              </button>
             </div>
           </div>
         </div>

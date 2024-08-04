@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-slate-950 sm:pt-10 pt-10 sm:px-14 px-9">
+      <footer className="bg-slate-950 sm:mt-10 mt-10 sm:px-14 px-9">
         <div className="w-full p-4 py-6 sm:py-8">
           <div className="sm:flex sm:justify-between">
             <div className="mb-6 md:mb-0">
